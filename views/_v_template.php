@@ -27,7 +27,11 @@ Released   : 20130919
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 	<link href="/css/default.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
-		
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	<script src="/js/main.js"></script>
+			
 </head>
 
 <body>	
@@ -58,8 +62,6 @@ Released   : 20130919
 
 	<?php if(isset($client_files_body)) echo $client_files_body; ?>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-	<script src="/js/main.js"></script>
 	
 </body>
 
