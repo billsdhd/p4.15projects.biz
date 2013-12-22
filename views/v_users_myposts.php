@@ -12,7 +12,7 @@
 							<?=Time::display($post['created'])?>
 						</span> 
 						<p>
-							<?=$post['content']?>
+							<pre><?=$post['content']?></pre>
 						</p>
 						Last modified : <?=Time::display($post['modified'])?> 
 						<a href='/posts/edit/<?=$post['post_id']?>'>Edit</a> 
