@@ -1,0 +1,29 @@
+/*-------------------------------------------------------------------------------------------------
+General
+-------------------------------------------------------------------------------------------------*/
+* {
+	font-family:Georgia;
+	color:#333;
+	background-color: gray;
+}
+
+h1 {
+	font-family:fantasy ;	
+	text-align:center;
+	font-size:60px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+h2 {
+	font-family: cursive;
+	text-align:center;
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+
+small {
+	font-family:verdana;
+}
+
