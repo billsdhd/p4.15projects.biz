@@ -4,7 +4,7 @@
 			<div class="title">
 				<h2>Edit your post</h2>
 				<span class="byline">
-					Please type your message in the box blow. Maximum 255 letters
+					Please type your message in the box blow.
 				</span> 
 			</div>
 			<div class="content">
@@ -13,6 +13,7 @@
 						<div class="row half">
 							<div class="12u">
 								<textarea name='content' ><?=$post['content']?></textarea>
+								Maximum characters: 500<br>
 							</div>
 						</div>
 						<div class="row">
