@@ -39,7 +39,6 @@ Released   : 20130919
 					<li><a href='/' accesskey="1" title="">Home</a></li>
 						<?php if($user): ?>				
 							<li><a href='/posts/' accesskey="2" title="">Recent Post</a></li>
-							<li><a href='/posts/users' accesskey="3" title="">Follow Users</a></li>
 							<li><a href='/posts/add' accesskey="4" title="">Add Post</a></li>
 							<li><a href='/users/myposts' accesskey="5" title="">My Posts</a></li>						
 							<li><a href='/users/profile' accesskey="6" title="">My Info</a></li>
