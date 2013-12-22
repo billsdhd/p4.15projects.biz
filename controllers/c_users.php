@@ -40,7 +40,7 @@ class users_controller extends base_controller {
 		};
 
 		# Check the email format
-        if ( !filter_var($email, $_POST['email']) ){
+        if ( !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
         	Router::redirect("/users/message/Wrong Email Format");			
         };
 
