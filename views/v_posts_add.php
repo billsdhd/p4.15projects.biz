@@ -11,8 +11,7 @@
 				<form method='post' action='/posts/p_add'>
 					<div class="row half">
 						<div class="12u">
-							<textarea name='content' placeholder="Message">
-							</textarea>
+							<textarea name='content' placeholder="Message"></textarea>
 						</div>
 					</div>
 					<div class="row">

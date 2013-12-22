@@ -12,7 +12,7 @@
 					<form method='post' action="/posts/p_edit/<?=$post['post_id']?>">
 						<div class="row half">
 							<div class="12u">
-								<textarea name='content' > <?=$post['content']?> </textarea>
+								<textarea name='content' ><?=$post['content']?></textarea>
 							</div>
 						</div>
 						<div class="row">
