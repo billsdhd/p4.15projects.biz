@@ -59,6 +59,9 @@ Released   : 20130919
 
 	<?php if(isset($client_files_body)) echo $client_files_body; ?>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="/js/main.js"></script>
+	
 </body>
 
 </html>
