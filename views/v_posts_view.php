@@ -2,15 +2,12 @@
 	<div id="wrapper3">
 		<div id="wrapper-blog" class="container">
 			<div id="post">
-				<h2>
-					Resent Diaries
-				</h2>
-				<br><br>
 				<div class="post"> 
 					<span class="date">
 						<?php foreach($posts as $post): ?>
-							<?=Time::display($post['created'])?>
-							<a href='/posts/view/<?=$post['post_id']?>'>View</a> 
+							<?=Time::display($post['created'])?><br>
+							<pre><?=$post['content']?></pre>
+							<a href='/posts/edit/<?=$post['post_id']?>'>Edit</a> 
 							<br>
 						<?php endforeach; ?>
 					</span> 

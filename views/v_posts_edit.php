@@ -12,8 +12,9 @@
 					<form method='post' action="/posts/p_edit/<?=$post['post_id']?>">
 						<div class="row half">
 							<div class="12u">
-								<textarea name='content' ><?=$post['content']?></textarea>
+								<textarea name='content' onkeyup="countChar(this)"><?=$post['content']?></textarea>
 								Maximum characters: 500<br>
+								<div id="charNum"></div>
 							</div>
 						</div>
 						<div class="row">

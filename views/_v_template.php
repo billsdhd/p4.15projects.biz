@@ -42,10 +42,10 @@ Released   : 20130919
 				<ul>
 					<li><a href='/' accesskey="1" title="">Home</a></li>
 						<?php if($user): ?>				
-							<li><a href='/posts/' accesskey="2" title="">Recent Post</a></li>
-							<li><a href='/posts/add' accesskey="4" title="">Add Post</a></li>
-							<li><a href='/users/myposts' accesskey="5" title="">My Posts</a></li>						
-							<li><a href='/users/profile' accesskey="6" title="">My Info</a></li>
+							<li><a href='/posts/' accesskey="2" title="">Lists</a></li>
+							<li><a href='/posts/add' accesskey="4" title="">New Diary</a></li>
+							<li><a href='/users/myposts' accesskey="5" title="">Read All</a></li>						
+							<li><a href='/users/profile' accesskey="6" title="">Account</a></li>
 							<li><a href='/users/logout' accesskey="7" title="">Logout</a></li>
 						<?php else: ?>
 							<li><a href='/users/signup' accesskey="2" title="">Sign Up</a></li>
