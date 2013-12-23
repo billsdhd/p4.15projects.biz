@@ -203,7 +203,7 @@ class posts_controller extends base_controller {
         DB::instance(DB_NAME)->delete('posts', $q);
         
         # Send them back
-        Router::redirect("/users/myposts");
+        Router::redirect("/posts");
     }
 
 } # eoc

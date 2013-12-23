@@ -8,6 +8,7 @@
 							<?=Time::display($post['created'])?><br>
 							<pre><?=$post['content']?></pre>
 							<a href='/posts/edit/<?=$post['post_id']?>'>Edit</a> 
+							<a href='/posts/p_delete/<?=$post['post_id']?>'>Delete</a>
 							<br>
 						<?php endforeach; ?>
 					</span> 
