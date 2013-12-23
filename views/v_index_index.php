@@ -22,9 +22,10 @@
 			<p>
 				Due to the catastrophic failure of the Project 2; I got a pretty bad grade on that; <br>
 				I focussed on the frameworks. Added javascript letter count and adjust functions.
-				Error page for bad form or email address. 
+				Error page for bad form or email address. <br>
 				<strong>Features :</strong>
-				Sign up, Log in, Log out, Add post view all of posts <br>
+				Sign up, Log in, Log out, Add Diary, View list, View all diaries, View account<br>
+				Error pages, address format check, empty form check, letter count, letter adjust<br>
 			</p>
 			<p>
 				<strong>Preinstalled users :</strong> 
