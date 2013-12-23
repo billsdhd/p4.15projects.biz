@@ -20,6 +20,9 @@
 				This is <strong>Simple Diary</strong>, based on the frameworks. <br>
 			</p>
 			<p>
+				Due to the catastrophic failure of the Project 2; I got a pretty bad grade on that; <br>
+				I focussed on the frameworks. Added javascript letter count and adjust functions.
+				Error page for bad form or email address. 
 				<strong>Features :</strong>
 				Sign up, Log in, Log out, Add post view all of posts <br>
 			</p>
