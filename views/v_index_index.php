@@ -8,24 +8,20 @@
 				</h2>
 			<?php else: ?>
 				<h2>
-					Welcome to Simple Blog!
+					Simple Diary!
 				</h2>
 			<?php endif; ?>
 		
-			<span class="byline">A very simple blog website for project 2</span> 
+			<span class="byline">project 4</span> 
 		</div>
 	
 		<div class="content">
 			<p>
-				This is <strong>Simple Blog</strong>, a simple blog website. <br>
+				This is <strong>Simple Diary</strong>, based on the frameworks. <br>
 			</p>
 			<p>
 				<strong>Features :</strong>
-				Sign up, Log in, Log out, Add posts, See a list of all users, 
-				Follow and unfollow other users, 
-				View a stream of posts from the users they follow<br>
-				<strong>+1 Features :</strong> 
-				Edit posts, Delete posts, Display the user profile.<br>
+				Sign up, Log in, Log out, Add post view all of posts <br>
 			</p>
 			<p>
 				<strong>Preinstalled users :</strong> 

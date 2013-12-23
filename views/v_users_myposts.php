@@ -3,7 +3,7 @@
 		<div id="wrapper-blog" class="container">
 			<div id="post">
 				<h2>
-					My Posts
+					View All
 				</h2>
 				<br><br>
 				<?php foreach($posts as $post): ?>
